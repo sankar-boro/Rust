@@ -15,10 +15,12 @@ mod minimum_cost_path;
 mod rod_cutting;
 mod snail;
 mod subset_generation;
+mod trapped_rainwater;
 mod word_break;
 
 pub use self::coin_change::coin_change;
 pub use self::egg_dropping::egg_drop;
+pub use self::fibonacci::binary_lifting_fibonacci;
 pub use self::fibonacci::classical_fibonacci;
 pub use self::fibonacci::fibonacci;
 pub use self::fibonacci::last_digit_of_the_sum_of_nth_fibonacci_number;
@@ -41,4 +43,5 @@ pub use self::minimum_cost_path::minimum_cost_path;
 pub use self::rod_cutting::rod_cut;
 pub use self::snail::snail;
 pub use self::subset_generation::list_subset;
+pub use self::trapped_rainwater::trapped_rainwater;
 pub use self::word_break::word_break;
